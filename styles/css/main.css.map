@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,MAAM,CAAC;EACjB,UAAU,EAAE,OAAO;CACtB;;AEND,AAAA,UAAU,CAAC;EACP,OAAO,EAAE,IAAI;EACb,aAAa,EACT,cAAc,CAAC,kBAAkB,CACjC,kBAAkB,CAAC,mBAAmB,CACtC,iBAAiB,CAAC,kBAAkB,CACpC,kBAAkB,CAAC,kBAAkB,CACrC,iBAAiB,CAAC,kBAAkB,CACpC,kBAAkB,CAAC,kBAAkB,CACrC,gBAAgB,CAAC,sBACd,EAAE,OAAO,EAAE,IAAI,EAAE,OAAO,EAAE,MAAM,EAAE,QAAQ,EAAE,IAAI,EAAE,QAAQ,EAAE,GAAG;CACzE",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/_box-model.scss",
+        "../sass/fonts.scss",
+        "../sass/layout.scss",
+        "../sass/_background.scss",
+        "../sass/blocks/header/_header.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

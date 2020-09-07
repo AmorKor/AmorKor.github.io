@@ -1,0 +1,16 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.page_body {
+  display: -ms-grid;
+  display: grid;
+  grid-template: ". . hero . ." minmax(705px, 1fr) ". . services . ." minmax(1133px, 1fr) ". . fetures . ." minmax(477px, 1fr) ". . download . ." minmax(434px, 1fr) ". . reviews . ." minmax(482px, 1fr) ". . articles . ." minmax(804px, 1fr) ". . footer . ." minmax(432px, 1fr)/1fr [subLeft] 25px [subLeft] 1220px [subRight] 25px [subRight] 1fr;
+}
+/*# sourceMappingURL=main.css.map */

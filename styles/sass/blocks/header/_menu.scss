@@ -1,0 +1,33 @@
+//MENU
+.menu {
+    width: 545px;
+}
+
+//LIST
+.menu__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column: min-content;
+    column-gap: 40px;
+}
+
+.menu__link {
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 18px;
+    color: $dark-faded;
+    transition-property: color, margin;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+}
+
+.menu__link:hover,
+.menu__link:focus,
+.menu__link:active {
+    font-weight: bold;
+    color: $dark;
+    margin: 2px;
+}

@@ -1,0 +1,27 @@
+//ARTICLE
+.article {
+
+}
+
+//HEADER
+.article__header {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 56px
+}
+
+//TEXT
+.article__text {
+    margin: 0;
+    margin-top: 25px;
+    font-size: 21px;
+    font-weight: 400;
+    color: $steel-grey;
+    line-height: 32px
+}
+
+//BUTTON
+.article__button {
+    margin-top: 50px;
+}

@@ -1,0 +1,31 @@
+//PROVIDERS
+.providers {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 137px;
+}
+
+//IMG
+.providers__img {
+    margin-left: -55px;
+}
+
+//ARTICLE
+.providers__article {
+    margin-top: 70px;    
+    
+    .article__line {
+        margin: 34px 0;
+    }
+}
+
+
+
+.article__text {
+    margin-top: 35px;
+}
+
+//BUTTON 
+.providers__button {
+    margin-top: 37px;
+}

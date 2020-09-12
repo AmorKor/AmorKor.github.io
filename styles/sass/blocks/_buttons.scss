@@ -1,0 +1,28 @@
+//BUTTON
+.button {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 56px;
+    color: #ffffff;
+
+    display: block;
+    border: none;
+    border-radius: 55px;
+    background-color: $controls-ocean-blue;
+    padding-left: 38px;
+    padding-right: 38px;
+    min-width: 200px;
+    min-height: 56px;
+}
+
+.button--transparent {
+    color: $controls-ocean-blue;
+    background-color: transparent;
+    border: solid 2px $controls-ocean-blue;
+    transition: all 400ms ease  ;
+}
+
+.button--transparent:hover {
+    background-color: $controls-ocean-blue;
+    color: #ffffff;
+}

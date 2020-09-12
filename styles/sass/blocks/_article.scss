@@ -3,17 +3,40 @@
 
 }
 
+//LINE
+.line {
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 6px;
+}
+
+.article__line {
+    margin: 0 auto;
+}
+
+.downloads__article .article__line {
+    margin-top: 30px;
+}
+
 //HEADER
 .article__header {
     margin: 0;
-    font-size: 48px;
     font-weight: bold;
     line-height: 56px
 }
 
+.article__header--l {
+    font-size: 48px;
+}
+
+.article__header--m {
+    font-size: 36px;
+}
+
 //TEXT
 .article__text {
-    margin: 0;
+    margin-bottom: 0;
     margin-top: 25px;
     font-size: 21px;
     font-weight: 400;
@@ -21,7 +44,18 @@
     line-height: 32px
 }
 
+.services__article .article__text {
+    margin-top: 33px;
+}
+
 //BUTTON
 .article__button {
     margin-top: 50px;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-duration: 300ms;
+}
+
+.article__button:hover {
+    transform: scale(1.05)
 }

@@ -1,15 +1,16 @@
 //INTRO
-.introduction {
+.hero {
+    grid-area: hero;
     display: grid;
     grid-auto-flow: column;
     column-gap: 110px;
 }
 
-.introduction__article {
+.hero__article {
     margin-top: 105px;
 }
 
-.introduction__img {
+.hero__img {
     display: block;
     margin-right: -15px;
 }

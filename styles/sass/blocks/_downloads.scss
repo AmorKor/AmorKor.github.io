@@ -1,0 +1,42 @@
+//DOWNLOADS
+.downloads {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 70px;
+}
+
+//IMG
+.donwloads__img {
+    margin-right: -25px;
+}
+
+//ARTICLE
+.downloads__article {
+    margin-top: 35px;    
+
+    .article__header {
+        line-height: 48px;
+    }
+    
+    .article__line {
+        margin: 30px 0;
+    }
+
+    .article__text {
+        margin-top: 30px;
+    }
+}
+
+
+//BUTTON 
+.downloads__button {
+    margin-top: 40px;
+    background-image: url(../../../src/img/downArrow.svg);
+    background-repeat: no-repeat;
+    background-position: top 20px left 147px;
+    text-align: left;
+}
+
+.downloads__button:hover {
+    text-indent: 0.85em;
+}

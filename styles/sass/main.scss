@@ -6,9 +6,21 @@
 
 //BLOCKS
 @import 'background';
+@import 'blocks/buttons';
+    //header
 @import 'blocks/header/header';
 @import 'blocks/header/logo';
 @import 'blocks/header/menu';
-@import 'blocks/hero/introduction';
+    //hero
+@import 'blocks/hero/hero';
 @import 'blocks/article';
-@import 'blocks/buttons/button';
+    //services
+@import 'blocks/services';
+@import 'blocks/cards';
+    //providers
+@import 'blocks/providers';
+    //downloads
+@import 'blocks/downloads';
+    //reviews
+@import 'blocks/reviews';
+

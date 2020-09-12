@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="styles/css/main.css">
-    <link rel="stylesheet" href="vendor/node_modules/normalize.css/">
+    <link rel="stylesheet" href="vendor/node_modules/normalize.css/normalize.css">
     
     <title>Trafalgar</title>
 </head>
@@ -391,58 +391,171 @@
             <use href="#dots"></use>
         </svg>
     </div>
-    <div class="hero">
-        <header class="header">
-            <div class="logo">
-                <img class="logo__icon" src="src/img/logo.svg" alt="logo"></img>
-                <p class="logo__text">Trafalgar</p>
-            </div>
-            <nav class="menu header__menu">
-                <ul class="menu__list">
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">
-                            Home
-                        </a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">
-                            Find a doctor
-                        </a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">
-                            Apps
-                        </a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">
-                            Testimonials
-                        </a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">
-                            About us
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section class="introduction hero__introduction">
-            <article class="article introduction__article">
-                <h1 class="article__header article__header--l">
-                    Virtual healthcare for you
-                </h1>
-                <p class="article__text">
-                    Trafalgar provides progressive, and affordable 
-                    healthcare, accessible on mobile and online 
-                    for everyone
+    <header class="header page__header">
+        <div class="logo">
+            <img class="logo__icon" src="src/img/logo.svg" alt="logo"></img>
+            <p class="logo__text">Trafalgar</p>
+        </div>
+        <nav class="menu header__menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a href="#" class="menu__link">
+                        Home
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">
+                        Find a doctor
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">
+                        Apps
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">
+                        Testimonials
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">
+                        About us
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero page__hero">
+        <article class="article hero__article">
+            <h1 class="article__header article__header--l">
+                Virtual healthcare for you
+            </h1>
+            <p class="article__text">
+                Trafalgar provides progressive, and affordable 
+                healthcare, accessible on mobile and online 
+                for everyone
+            </p>
+            <button class="button article__button">
+                Consult today
+            </button>
+        </article>
+        <img class="img hero__img" src="src/img/trafalgar-header illustration 1.png" alt="Virtual healthcare for you">
+    </section>
+    <div class="services page__services">
+        <article class="article services__article">
+            <h1 class="article__header article__header--m">
+                Our services
+            </h1>
+            <div class="line article__line"></div>
+            <p class="article__text">
+                We provide to you the best choiches for you. 
+                Adjust it to your health needs and make sure your undergo treatment with our highly 
+                qualified doctors you can consult with us which type of service is suitable for your health
+            </p>
+        </article>
+        <ul class="cards services__cards">
+            <li class="card cards__item">
+                <img class="card__img" src="src/img/icons/IconSearch.svg" alt="search icon" class="card__img">
+                <p class="card__title">Search doctor</p>
+                <p class="card__text">
+                    Choose your doctor from thousands of specialist, general, and trusted hospitals
                 </p>
-                <button class="button article__button">
-                    Consult today
-                </button>
-            </article>
-            <img class="img introduction__img" src="src/img/trafalgar-header illustration 1.png" alt="Virtual healthcare for you">
-        </section>
+            </li>
+            <li class="card cards__item">
+                <img class="card__img" src="src/img/icons/IconPharmasy.svg" alt="pharmacy icon" class="card__img">
+                <p class="card__title">Online pharmacy</p>
+                <p class="card__text">
+                    Buy  your medicines with our mobile application with a simple 
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; delivery system
+                </p>
+            </li>
+            <li class="card cards__item">
+                <img class="card__img" src="src/img/icons/IconConsultation.svg" alt="consultation icon" class="card__img">
+                <p class="card__title">Consultation</p>
+                <p class="card__text">
+                    Free consultation with our trusted doctors and get the best recomendations
+                </p>
+            </li>
+            <li class="card cards__item">
+                <img class="card__img" src="src/img/icons/IconDetails.svg" alt="details icon" class="card__img">
+                <p class="card__title">Details info</p>
+                <p class="card__text">
+                    Free consultation with our trusted doctors and get the best recomendations
+                </p>
+            </li>
+            <li class="card cards__item">
+                <img class="card__img card__img--rightShifted" src="src/img/icons/IconEmergency.svg" alt="emergency icon" class="card__img">
+                <p class="card__title">Emergency care</p>
+                <p class="card__text">
+                    You can get 24/7 urgent care for yourself or your children and your
+                    lovely family
+                </p>
+            </li>
+            <li class="card cards__item">
+                <img class="card__img" src="src/img/icons/IconTracking.svg" alt="tracking icon" class="card__img">
+                <p class="card__title">Tracking</p>
+                <p class="card__text">
+                    Track and save your medical history and health data 
+                </p>
+            </li>
+        </ul>
+        <button class="button services__button button--transparent">
+            Learn more
+        </button>
     </div>
+    <section class="providers page__providers">
+        <img class="img providers__img" src="src/img/trafalgar-illustration sec02 1.png" alt="providers">
+        <article class="article providers__article">
+            <h1 class="article__header article__header--m">
+                Leading healthcare providers
+            </h1>
+            <div class="line article__line"></div>
+            <p class="article__text">
+                Trafalgar provides progressive, and affordable healthcare,
+                accessible on mobile and online for everyone.
+                To us, it’s not just work. We take pride 
+                in the solutions we deliver
+            </p>
+            <button class="button providers__button button--transparent">
+                Learn more
+            </button>
+        </article>
+    </section>
+    <section class="downloads page__downloads">
+        <article class="article downloads__article">
+            <h1 class="article__header article__header--m">
+                Download our <br> mobile apps
+            </h1>
+            <div class="line article__line"></div>
+            <p class="article__text">
+                Our dedicated patient engagement app and 
+                web portal allow you to access information instantaneously (no tedeous form, long calls, 
+                or administrative hassle) and securely
+            </p>
+            <button class="button downloads__button button--transparent">
+                Download
+            </button>
+        </article>
+        <img class="img downloads__img" src="src/img/trafalgar-illustration sec03 1.png" alt="donwloads">
+    </section>
+    <section class=" reviews page__reviews">
+        <div class="reviews__container">
+            <h2 class="reviews__title">What our customer are saying</h2>
+            <div class="line article__line"></div>
+            <div class="reviews__wrapper">
+                <div class="reviews__person">
+                    <img class="reviews__img" src="src/img/EdwardNewgate.png" alt="Edward Newgate">
+                    <p class="rewiews__name">Edward Newgate</p>
+                    <p class="reviews__occupation">Founder Circle</p>
+                </div>
+                <blockquote class="reviews__quote">
+                    “Our dedicated patient engagement app and 
+                    web portal allow you to access information instantaneously (no tedeous form, long calls, 
+                    or administrative hassle) and securely”
+                </blockquote>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

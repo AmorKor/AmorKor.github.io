@@ -4,10 +4,10 @@
     padding: 0;
     display: grid;
     grid-template: 
-        ". . hero . ." minmax(705px, 1fr) 
-        ". . services . ." minmax(1133px, 1fr)
-        ". . fetures . ." minmax(477px, 1fr)
-        ". . download . ." minmax(434px, 1fr)
+        ". . hero . ." 775px 
+        ". . services . ."  min-content
+        ". . providers . ."  min-content
+        ". . downloads . ."  min-content
         ". . reviews . ." minmax(482px, 1fr)
         ". . articles . ." minmax(804px, 1fr)
         ". . footer . ." minmax(432px, 1fr) /
@@ -17,10 +17,32 @@
     font-size: 16px;
 }
 
-.hero {
+.page__header {
     grid-area: hero;
     padding-top: 55px;
-    display: grid;
-    grid-template-rows: repeat(2, min-content);
-    row-gap: 85px;
+}
+
+.page__hero {
+    grid-area: hero;
+    align-self: end;
+}
+
+.page__services {
+    grid-area: services;
+    margin-top: 190px;
+}
+
+.page__providers {
+    grid-area: providers;
+    margin-top: 220px;
+}
+
+.page__downloads {
+    grid-area: downloads;
+    margin-top: 230px;
+}
+
+.page__reviews {
+    grid-area: reviews;
+    margin-top: 266px;
 }

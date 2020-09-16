@@ -8,9 +8,9 @@
         ". . services . ."  min-content
         ". . providers . ."  min-content
         ". . downloads . ."  min-content
-        ". . reviews . ." minmax(482px, 1fr)
-        ". . articles . ." minmax(804px, 1fr)
-        ". . footer . ." minmax(432px, 1fr) /
+        ". . reviews . ." min-content
+        ". . articles . ." min-content
+        ". . footer . ." min-content /
         1fr [subLeft] 25px [subLeft] 1220px [subRight] 25px [subRight] 1fr;
 
     font-family: 'Muli', sans-serif;
@@ -45,4 +45,22 @@
 .page__reviews {
     grid-area: reviews;
     margin-top: 266px;
+}
+
+.page__articles {
+    grid-area: articles;
+    margin-top: 222px;
+}
+
+.page__footerWrapper {
+    grid-column: 1 / -1;
+    margin-top: 200px;
+    background:
+    url(../../src/img/bg/footerDots.svg) no-repeat bottom 0 left 11px,
+    $footer-ocean-blue-gradient;
+}
+
+.footer {
+    width: 1220px;
+    margin: 0 auto;
 }

@@ -3,7 +3,7 @@
   font-family: 'Muli';
   font-weight: lighter;
   src: url(..\..\src\fonts\Muli-Light-subset.woff2) format("woff2"),
-  url(..\..\src\fonts\Muli-Light-subset.zopfli.woff) format("woff");
+       url(..\..\src\fonts\Muli-Light-subset.zopfli.woff) format("woff");
   unicode-range: U+20-7E;
   font-display: swap;
 }
@@ -13,7 +13,7 @@
   font-family: 'Muli';
   font-weight: normal;
   src: url(..\..\src\fonts\Muli-Regular-subset.woff2) format("woff2"),
-  url(..\..\src\fonts\Muli-Regular-subset.zopfli.woff) format("woff");
+       url(..\..\src\fonts\Muli-Regular-subset.zopfli.woff) format("woff");
   unicode-range: U+20-7E;
   font-display: swap;
 }
@@ -23,7 +23,7 @@
   font-family: 'Muli';
   font-weight: bold;
   src: url(..\..\src\fonts\Muli-Bold-subset.woff2) format("woff2"), 
-  url(..\..\src\fonts\Muli-Bold-subset.zopfli.woff) format("woff");
+       url(..\..\src\fonts\Muli-Bold-subset.zopfli.woff) format("woff");
   unicode-range: U+20-7E;
   font-display: swap;  
 }

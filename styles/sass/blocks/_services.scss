@@ -24,3 +24,49 @@
 .services__button {
     margin-top: 72px;
 }
+
+//CARDS
+.services__cardList {
+    display: grid;
+    margin-top: 80px;
+    grid-template: 
+        repeat(2, min-content) /
+        repeat(3, min-content);
+    row-gap: 37px;
+    column-gap: 34px;
+}
+
+//CARD
+.services__card {
+    list-style: none;
+
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 47px 45px 47px 38px;
+
+    box-shadow: $card-shadow;
+
+    display: grid;
+    grid-template-rows: 119px 56px 1fr;
+}
+
+.services__cardImg--rightShifted {
+    margin-left: 2px;
+}
+
+.services__cardTitle, .services__cardText {
+    margin: 0;
+}
+
+.services__cardTitle {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 56px;
+}
+
+.services__cardText {
+    color: $steel-grey;
+    line-height: 28px;
+}

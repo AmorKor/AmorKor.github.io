@@ -1,0 +1,71 @@
+//ARCITLES
+//TITLE 
+.articles__title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 56px;
+    margin: 0;
+    text-align: center;
+}
+
+//LINE
+.articles .article__line {
+    margin-top: 25px;
+}
+
+//CARDS
+.articles__cardList {
+    list-style: none;
+    
+    margin-top: 80px;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 35px;
+}
+
+.articles__card {
+    background-color: #fff;
+    box-shadow: $card-shadow;
+
+    width: 350px;
+    padding: 0 51px 35px 33px;
+    border-radius: 20px;
+}
+
+.articles__cardImg {
+    margin: 0 -51px 0 -33px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.articles__cardTitle {
+    font-size: 21px;
+    line-height: 32px;
+    margin: 24px 0 0;
+}
+
+.articles__cardText {
+    font-weight: lighter;
+    color: $steel-grey;
+    line-height: 28px;
+    margin: 12px 0 0;
+}
+
+.articles__cardLink {
+    display: block;
+    margin-top: 25px;
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 17px;
+    line-height: 28px;
+    color: $links-dark-ocean-blue;
+    background-image: url(../../../src/img/cardLinkRightArrow.svg);
+    background-repeat: no-repeat;
+    background-position: top 10px left 102px;
+}
+
+//BUTTON
+.articles__button {
+    margin: 72px auto 0;
+}

@@ -5,23 +5,22 @@
     column-gap: 137px;
 }
 
+.providers__article {
+    margin-top: 50px;
+}
+
 //IMG
 .providers__img {
-    margin-left: -55px;
+    margin-left: -30px;
 }
 
-//ARTICLE
-.providers__article {
-    margin-top: 70px;    
-    
-    .article__line {
-        margin: 34px 0;
-    }
+//LINE
+.providers__article .article__line {
+    margin: 35px 0;
 }
 
-
-
-.article__text {
+//TEXT
+.providers__article .article__text {
     margin-top: 35px;
 }
 

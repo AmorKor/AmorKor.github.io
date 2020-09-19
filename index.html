@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="styles/css/normalize.css">
     <link rel="stylesheet" href="styles/css/main.css">
-    <link rel="stylesheet" href="vendor/node_modules/normalize.css/normalize.css">
     
     <title>Trafalgar</title>
 </head>
 <body class="page__body">
+    <!-- BACKGROUND -->
     <span class="svgSprite" display='none' style="position: absolute; z-index: -1;">
         <!-- DOTS -->
         <svg xmlns="http://www.w3.org/2000/svg"><defs>
@@ -370,8 +371,8 @@
             </symbol></svg>
     </span>
     <div class="background">
-        <img class="background__figureBig" src="src/img/bg/figureBig.svg">
-        <img class="background__figureSmall" src="src/img/bg/figureSmall.svg">
+        <img class="background__figureBig" src="src/img/svg/bg/figureBig.svg">
+        <img class="background__figureSmall" src="src/img/svg/bg/figureSmall.svg">
         <svg class="background__dots1">
             <use href="#dots"></use>
         </svg>
@@ -391,42 +392,43 @@
             <use href="#dots"></use>
         </svg>
     </div>
+    <!-- HERO -->
     <header class="header page__header">
         <div class="logo">
-            <img class="logo__icon" src="src/img/logo.svg" alt="logo"></img>
+            <img class="logo__icon" src="src/img/svg/logo.svg" alt="logo"></img>
             <p class="logo__text">Trafalgar</p>
         </div>
         <nav class="menu header__menu">
             <ul class="menu__list">
                 <li class="menu__item">
-                    <a href="#" class="menu__link">
+                    <a href="#hero" class="menu__link">
                         Home
                     </a>
                 </li>
                 <li class="menu__item">
-                    <a href="#" class="menu__link">
+                    <a href="#providers" class="menu__link">
                         Find a doctor
                     </a>
                 </li>
                 <li class="menu__item">
-                    <a href="#" class="menu__link">
+                    <a href="#downloads" class="menu__link">
                         Apps
                     </a>
                 </li>
                 <li class="menu__item">
-                    <a href="#" class="menu__link">
+                    <a href="#reviews" class="menu__link">
                         Testimonials
                     </a>
                 </li>
                 <li class="menu__item">
-                    <a href="#" class="menu__link">
+                    <a href="#footer" class="menu__link">
                         About us
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section class="hero page__hero">
+    <section class="hero page__hero" id="hero">
         <article class="article hero__article">
             <h1 class="article__header article__header--l">
                 Virtual healthcare for you
@@ -440,8 +442,9 @@
                 Consult today
             </button>
         </article>
-        <img class="img hero__img" src="src/img/trafalgar-header illustration 1.png" alt="Virtual healthcare for you">
+        <img class="img hero__img" src="src/img/png/trafalgar-header illustration 1.png" alt="Virtual healthcare for you">
     </section>
+    <!-- SERVICES -->
     <div class="services page__services">
         <article class="article services__article">
             <h1 class="article__header article__header--m">
@@ -456,14 +459,14 @@
         </article>
         <ul class="services__cardList">
             <li class="services__card">
-                <img class="services__cardImg" src="src/img/icons/IconSearch.svg" alt="search icon" class="services__cardImg">
+                <img class="services__cardImg" src="src/img/svg/icons/IconSearch.svg" alt="search icon" class="services__cardImg">
                 <h3 class="services__cardTitle">Search doctor</h3>
                 <p class="services__cardText">
                     Choose your doctor from thousands of specialist, general, and trusted hospitals
                 </p>
             </li>
             <li class="services__card">
-                <img class="services__cardImg" src="src/img/icons/IconPharmasy.svg" alt="pharmacy icon" class="services__cardImg">
+                <img class="services__cardImg" src="src/img/svg/icons/IconPharmasy.svg" alt="pharmacy icon" class="services__cardImg">
                 <h3 class="services__cardTitle">Online pharmacy</h3>
                 <p class="services__cardText">
                     Buy  your medicines with our mobile application with a simple 
@@ -471,21 +474,21 @@
                 </p>
             </li>
             <li class="services__card">
-                <img class="services__cardImg" src="src/img/icons/IconConsultation.svg" alt="consultation icon" class="services__cardImg">
+                <img class="services__cardImg" src="src/img/svg/icons/IconConsultation.svg" alt="consultation icon" class="services__cardImg">
                 <h3 class="services__cardTitle">Consultation</h3>
                 <p class="services__cardText">
                     Free consultation with our trusted doctors and get the best recomendations
                 </p>
             </li>
             <li class="services__card">
-                <img class="services__cardImg" src="src/img/icons/IconDetails.svg" alt="details icon" class="services__cardImg">
+                <img class="services__cardImg" src="src/img/svg/icons/IconDetails.svg" alt="details icon" class="services__cardImg">
                 <h3 class="services__cardTitle">Details info</h3>
                 <p class="services__cardText">
                     Free consultation with our trusted doctors and get the best recomendations
                 </p>
             </li>
             <li class="services__card">
-                <img class="services__cardImg services__cardImg--rightShifted" src="src/img/icons/IconEmergency.svg" alt="emergency icon" class="services__cardImg">
+                <img class="services__cardImg services__cardImg--rightShifted" src="src/img/svg/icons/IconEmergency.svg" alt="emergency icon" class="services__cardImg">
                 <h3 class="services__cardTitle">Emergency care</h3>
                 <p class="services__cardText">
                     You can get 24/7 urgent care for yourself or your children and your
@@ -493,7 +496,7 @@
                 </p>
             </li>
             <li class="services__card">
-                <img class="services__cardImg" src="src/img/icons/IconTracking.svg" alt="tracking icon" class="services__cardImg">
+                <img class="services__cardImg" src="src/img/svg/icons/IconTracking.svg" alt="tracking icon" class="services__cardImg">
                 <h3 class="services__cardTitle">Tracking</h3>
                 <p class="services__cardText">
                     Track and save your medical history and health data 
@@ -504,8 +507,9 @@
             Learn more
         </button>
     </div>
-    <section class="providers page__providers">
-        <img class="img providers__img" src="src/img/trafalgar-illustration sec02 1.png" alt="providers">
+    <!-- PROVIDERS -->
+    <section class="providers page__providers" id="providers">
+        <img class="img providers__img" src="src/img/png/trafalgar-illustration sec02 1.png" alt="providers">
         <article class="article providers__article">
             <h1 class="article__header article__header--m">
                 Leading healthcare providers
@@ -522,7 +526,8 @@
             </button>
         </article>
     </section>
-    <section class="downloads page__downloads">
+    <!-- DOWNLOADS -->
+    <section class="downloads page__downloads" id="downloads">
         <article class="article downloads__article">
             <h1 class="article__header article__header--m">
                 Download our <br> mobile apps
@@ -537,32 +542,87 @@
                 Download
             </button>
         </article>
-        <img class="img downloads__img" src="src/img/trafalgar-illustration sec03 1.png" alt="donwloads">
+        <img class="img downloads__img" src="src/img/png/trafalgar-illustration sec03 1.png" alt="donwloads">
     </section>
-    <section class=" reviews page__reviews">
+    <!-- REVIEWS -->
+    <section class="reviews page__reviews" id="reviews">
         <div class="reviews__container">
+            <div class="reviews__dots"></div>
             <h2 class="reviews__title">What our customer are saying</h2>
             <div class="line article__line"></div>
             <div class="reviews__wrapper">
-                <div class="reviews__person">
-                    <img class="reviews__img" src="src/img/EdwardNewgate.png" alt="Edward Newgate">
-                    <p class="rewiews__name">Edward Newgate</p>
-                    <p class="reviews__occupation">Founder Circle</p>
+                <div class="reviews__item">
+                    <div class="reviews__person">
+                        <img class="reviews__img" src="src/img/png/EdwardNewgate.png" alt="Edward Newgate">
+                        <p class="rewiews__name">Edward Newgate</p>
+                        <p class="reviews__occupation">Founder Circle</p>
+                    </div>
+                    <blockquote class="reviews__quote">
+                        “Our dedicated patient engagement app and 
+                        web portal allow you to access information instantaneously (no tedeous form, long calls, 
+                        or administrative hassle) and securely”
+                    </blockquote>
                 </div>
-                <blockquote class="reviews__quote">
-                    “Our dedicated patient engagement app and 
-                    web portal allow you to access information instantaneously (no tedeous form, long calls, 
-                    or administrative hassle) and securely”
-                </blockquote>
+                <div class="reviews__item">
+                    <div class="reviews__person">
+                        <img class="reviews__img" src="src/img/png/person-photo1jpeg.jpeg" alt="Edward Newgate">
+                        <p class="rewiews__name">Arnold Jenkins</p>
+                        <p class="reviews__occupation">Traveller</p>
+                    </div>
+                    <blockquote class="reviews__quote">
+                        “Lorem ipsum dolor sit amet consectetur 
+                        aliquid debitis dicta, animi voluptates itaque, dolores accusamus impedit minus alias!
+                        Autem cum quibusdam natus qui aliquid eligendi?”
+                    </blockquote>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__person">
+                        <img class="reviews__img" src="src/img/png/person-photo2jpg.jpg" alt="Edward Newgate">
+                        <p class="rewiews__name">Rebecca Sanders</p>
+                        <p class="reviews__occupation">Designer</p>
+                    </div>
+                    <blockquote class="reviews__quote">
+                        “Lorem ipsum dolor sit amet consectetur 
+                        aliquid debitis dicta, animi voluptates itaque, dolores accusamus impedit minus alias!
+                        Autem cum quibusdam natus qui aliquid eligendi?”
+                    </blockquote>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__person">
+                        <img class="reviews__img" src="src/img/png/person-photo3jpg.jpg" alt="Edward Newgate">
+                        <p class="rewiews__name">Zack Rivera</p>
+                        <p class="reviews__occupation">Businessman</p>
+                    </div>
+                    <blockquote class="reviews__quote">
+                        “Lorem ipsum dolor sit amet consectetur 
+                        aliquid debitis dicta, animi voluptates itaque, dolores accusamus impedit minus alias!
+                        Autem cum quibusdam natus qui aliquid eligendi?”
+                    </blockquote>
+                </div>
             </div>
         </div>
+        <div class="reviews__controls">
+            <button class="reviews__button reviews__buttonPrev reviews__button--inactive" disabled>
+                <svg width="29" height="19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26.691 7.763H5.645l4.624-4.624c.638-.638.638-1.594 0-2.232-.638-.638-1.594-.638-2.232 0L.703 8.24c-.638.638-.638 1.594 0 2.232l7.334 7.334c.638.638 1.594.638 2.232 0 .638-.637.638-1.594 0-2.232l-4.624-4.624h21.046c.797 0 1.595-.637 1.595-1.594 0-.957-.798-1.594-1.595-1.594z" fill="#458FF6"/></svg>
+            </button>
+            <div class="reviews__posIndicatorWrapper">
+                <button class="reviews__posIndicator reviews__position--active"></button>
+                <button class="reviews__posIndicator"></button>
+                <button class="reviews__posIndicator"></button>
+                <button class="reviews__posIndicator"></button>
+            </div>
+            <button class="reviews__button reviews__buttonNext">
+                <svg width="29" height="19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26.691 7.763H5.645l4.624-4.624c.638-.638.638-1.594 0-2.232-.638-.638-1.594-.638-2.232 0L.703 8.24c-.638.638-.638 1.594 0 2.232l7.334 7.334c.638.638 1.594.638 2.232 0 .638-.637.638-1.594 0-2.232l-4.624-4.624h21.046c.797 0 1.595-.637 1.595-1.594 0-.957-.798-1.594-1.595-1.594z" fill="#458FF6"/></svg>
+            </button>
+        </div>
     </section>
+    <!-- ARTICLES -->
     <section class="articles page__articles">
-        <h2 class="articles__title">What our customer are saying</h2>
+        <h2 class="articles__title">Check out our latest article</h2>
         <div class="line article__line"></div>    
         <ul class="articles__cardList">
             <li class="articles__card">
-                <img src="src/img/articleImg1.png" alt="Desease detection" class="articles__cardImg">
+                <img src="src/img/png/articleImg1.png" alt="Desease detection" class="articles__cardImg">
                 <h3 class="articles__cardTitle">
                     Disease detection, check up in the laboratory
                 </h3>
@@ -572,7 +632,7 @@
                 <a href="#" class="articles__cardLink">Read more</a>
             </li>
             <li class="articles__card">
-                <img src="src/img/articleImg2.png" alt="Herbal medicines" class="articles__cardImg">
+                <img src="src/img/png/articleImg2.png" alt="Herbal medicines" class="articles__cardImg">
                 <h3 class="articles__cardTitle">
                     Herbal medicines that are safe for consumption
                 </h3>
@@ -582,7 +642,7 @@
                 <a href="#" class="articles__cardLink">Read more</a>
             </li>
             <li class="articles__card">
-                <img src="src/img/articleImg3.png" alt="Natural care for skin" class="articles__cardImg">
+                <img src="src/img/png/articleImg3.png" alt="Natural care for skin" class="articles__cardImg">
                 <h3 class="articles__cardTitle">
                     Natural care for healthy facial skin
                 </h3>
@@ -596,11 +656,13 @@
             Download
         </button>
     </section>
+    <!-- FOOTER -->
     <div class="page__footerWrapper">
-        <footer class="footer">
+        <div class="page__footerDots"></div>
+        <footer class="footer" id="footer">
             <div class="footer__info">
                 <div class="logo logo--footer">
-                    <img class="logo__icon logo__icon--footer" src="src/img/logoWhite.svg" alt="logo"></img>
+                    <img class="logo__icon logo__icon--footer" src="src/img/svg/logoWhite.svg" alt="logo"></img>
                     <p class="logo__text logo__text--footer">Trafalgar</p>
                 </div>
                 <p class="footer__text">
@@ -666,5 +728,7 @@
             </div>
         </footer>
     </div>
+    <!-- SCRITP -->
+    <script src="script\slider.js"></script>
 </body>
 </html>

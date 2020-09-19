@@ -1,12 +1,29 @@
 //REVIEWS
+.reviews {
+    display: grid;
+    row-gap: 43px;
+}
+
 .reviews__container {
     width: 1120px;
     background: $review-ocean-blue-gradient;
     margin: 0 auto;
-    padding: 64px 118px 79px;
+    padding: 64px 0 79px;
     border-radius: 24px;
-
     color: #ffffff;
+    overflow: hidden;
+    position: relative;
+}
+
+//BG DOTS 
+.reviews__dots {
+    width: 80px;
+    height: 95px;
+    opacity: 0.3;
+    background: url(../../../src/img/svg/bg/reviewsDots.svg);
+    position: absolute;
+    top: 11px;
+    right: 13px;
 }
 
 //TITLE 
@@ -26,11 +43,19 @@
 
 //REVIEW
 .reviews__wrapper {
+    display: flex;
+    // overflow: hidden;
     margin-top: 66px;
-    
+    transition-duration: 400ms;
+}
+//SINGLE REVIEW
+.reviews__item {
+    // min-width: 100%;
+    min-width: 884px;
     display: grid;
     grid-auto-flow: column;
     column-gap: 110px;
+    margin: 0 118px;
 }
     //person
 .reviews__person {
@@ -43,8 +68,15 @@
     height: 141px;
     border-radius: 50%;
     border: solid 4px white;
+    object-fit: cover;
     
     grid-row: 1 / span 2;
+}
+
+.reviews__item:nth-of-type(4) {
+    .reviews__img {
+        object-position: -60px 0;
+    }
 }
 
 .rewiews__name {
@@ -75,3 +107,59 @@
     margin: 0;
     align-self: center;
 }
+
+//CONTROLS
+.reviews__controls {
+    justify-self: center;
+    display: flex;    
+    align-items: center;
+}
+
+//CONTROLS
+    //buttons
+    .reviews__button {
+        border: none;
+        padding: 0;
+        width: 28px;
+        height: 18px;
+        background-color: transparent;
+        transition-duration: 400ms;
+    }
+    
+    .reviews__button:hover {
+        cursor: pointer;
+    }
+
+    .reviews__buttonNext {
+        transform: rotate(180deg);
+    }
+
+    .reviews__button--inactive {
+        opacity: 0.3;
+    }
+    //position indicator
+    .reviews__posIndicatorWrapper {
+        display: flex;
+        margin: 0 90px;
+    }
+    
+    .reviews__posIndicator {
+        border: none;
+        padding: 0;
+
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: $position-indicator;
+        opacity: 0.3;
+        cursor: pointer;
+        transition-duration: 400ms;
+    }
+
+    .reviews__posIndicator:not(:last-of-type) {
+        margin-right: 18px;
+    }
+
+    .reviews__position--active {
+        opacity: 1;
+    }

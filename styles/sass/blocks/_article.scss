@@ -1,23 +1,4 @@
 //ARTICLE
-.article {
-
-}
-
-//LINE
-.line {
-    width: 56px;
-    height: 2px;
-    background: #000000;
-    border-radius: 6px;
-}
-
-.article__line {
-    margin: 0 auto;
-}
-
-.downloads__article .article__line {
-    margin-top: 30px;
-}
 
 //HEADER
 .article__header {
@@ -34,6 +15,12 @@
     font-size: 36px;
 }
 
+//LINE 
+
+.article__line {
+    margin: 0 auto;
+}
+
 //TEXT
 .article__text {
     margin-bottom: 0;
@@ -42,10 +29,6 @@
     font-weight: 400;
     color: $steel-grey;
     line-height: 32px
-}
-
-.services__article .article__text {
-    margin-top: 33px;
 }
 
 //BUTTON

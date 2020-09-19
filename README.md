@@ -5,7 +5,7 @@ Based on 1600px template.
 
 To see in browser click [here](https://amorkor.github.io/) 
 
-####Used tools/methodologies
+#### Used tools/methodologies
 - SASS
 - SVGO/SVGstore-cli
 - BEM

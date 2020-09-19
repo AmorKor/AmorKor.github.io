@@ -2,7 +2,6 @@
 .logo {
     display: grid;
     width: 160px;
-    // grid-auto-flow: column;
     grid-template: 41px / repeat(2, min-content);
     column-gap: 12px;
     align-items: center;

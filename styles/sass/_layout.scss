@@ -37,13 +37,11 @@
 }
 
 .page__providers {
-    // grid-area: providers;
     grid-column: subLeft-start / content-end;
     margin-top: 220px;
 }
 
 .page__downloads {
-    // grid-area: downloads;
     grid-column: content-start / subRight-end;
     margin-top: 230px;
     margin-left: 90px;

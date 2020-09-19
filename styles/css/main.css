@@ -37,7 +37,6 @@ html {
 }
 
 .page__body {
-  max-width: 1600px;
   margin: 0;
   padding: 0;
   display: -ms-grid;
@@ -115,7 +114,7 @@ html {
   z-index: -1;
 }
 
-.background__dots1, .background__dots2, .background__dots3, .background__dots4, .background__dots5, .background__dots6, .background__figureSmall, .background__figureBig {
+.background__dots1, .background__dots2, .background__dots3, .background__dots4, .background__dots5, .background__dots6, .background__figureBig {
   position: absolute;
 }
 
@@ -126,11 +125,6 @@ html {
 
 .background__figureBig {
   top: 965px;
-}
-
-.background__figureSmall {
-  top: 4427px;
-  left: 1032px;
 }
 
 .background__dots1 {
@@ -144,7 +138,7 @@ html {
 }
 
 .background__dots3 {
-  top: 2783px;
+  top: 2841px;
   left: 1414px;
 }
 
@@ -161,6 +155,10 @@ html {
 .background__dots6 {
   top: 5390px;
   left: 1377px;
+}
+
+.page__body {
+  background: url(../../src/img/svg/bg/figureSmall.svg) no-repeat top 4427px right 0;
 }
 
 .button {

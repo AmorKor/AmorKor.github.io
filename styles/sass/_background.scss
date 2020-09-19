@@ -1,8 +1,8 @@
 .background {
     position: absolute;
     z-index: -1;
-
-    &__dots1, &__dots2, &__dots3, &__dots4, &__dots5, &__dots6, &__figureSmall, &__figureBig {
+    
+    &__dots1, &__dots2, &__dots3, &__dots4, &__dots5, &__dots6, &__figureBig {
         position: absolute;
     }
 
@@ -15,12 +15,6 @@
         top: 965px;
     }
 
-    &__figureSmall {
-        top: 4427px;
-        left: 1032px;
-    }
-    
-
     &__dots1 {
         top: 160px;
         left: -50px;
@@ -32,7 +26,7 @@
     }
 
     &__dots3 {
-        top: 2783px;
+        top: 2841px;
         left: 1414px;
     }
 
@@ -52,3 +46,7 @@
     }
 }
 
+.page__body {
+    background: url(../../src/img/svg/bg/figureSmall.svg) no-repeat top 4427px right 0;
+
+}
